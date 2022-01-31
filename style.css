@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@400;700&family=Inter:wght@400;500;700&family=Lato:wght@400;700&family=Oswald:wght@700&family=Roboto:wght@300;400;700&family=Rubik:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@400;700&family=Inter:wght@400;500;700&family=Lato:wght@400;700&family=Oswald:wght@700&family=Roboto:wght@300;400;700&family=Rubik:wght@400;500;600&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+body {
+	/* background-image: url(./images/propose.jpeg); */
+
+	font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+	/* coz we wanted to make it sticky thats why height is given */
+	height: 9.6rem;
+	padding: 0 48px;
+	position: relative;
+	color: white;
+	font-family: 'Dancing Script', sans-serif;
+}
+.header-background {
+	background-image: url(./images/propose.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	z-index: 6;
+}
+.logo {
+	height: 2.2rem;
+	font-size: 2.2rem;
+	text-decoration: none;
+	color: rgb(169, 101, 113);
+}
+.main-nav-list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 3.2rem;
+	color: white;
+}
+.main-nav-link:link,
+.main.nav-link:visited {
+	text-decoration: none;
+	color: rgb(169, 101, 113);
+	font-weight: 500;
+	font-size: 1.8rem;
+	transition: all 0.3s;
+	display: inline-block;
+}
+.main-nav-link:hover,
+.main.nav-link:active {
+	color: rgb(169, 101, 113);
+}
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+	padding: 1.2rem 2.44rem;
+	border-radius: 9px;
+	color: #fff;
+	background-color: rgb(169, 101, 113);
+	transition: all 0.3s;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+	background-color: #fae5d3;
+	color: rgb(169, 101, 113);
+}
+
+/* MOBILE */
+
+/* *************************************
+General components
+*/
+.btn-mobile-nav {
+	border: none;
+	background-color: none;
+	cursor: pointer;
+
+	display: none;
+}
+.icon-mobile-nav {
+	height: 4.8rem;
+	width: 4.8rem;
+	color: #333;
+}
+.icon-mobile-nav[name='close-outline'] {
+	display: none;
+}
+/* ///headings */
+.headings {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	z-index: 99;
+}
+.main-heading {
+	text-align: center;
+	font-size: 12rem;
+	font-weight: bold;
+	/* padding: 5rem 5rem 1rem 5rem; */
+	color: rgb(169, 101, 113);
+	font-family: 'Dancing Script', sans-serif;
+}
+.heading-two {
+	font-size: 3rem;
+	/* margin-left: 39%; */
+	color: rgb(169, 101, 113);
+	background-color: white;
+	/* width: 30rem; */
+	text-align: center;
+	border-radius: 1rem;
+	padding: 1rem;
+	font-family: 'Dancing Script', sans-serif;
+}
+
+.bg-two {
+	font-size: 4rem;
+	/* margin-left: 39%; */
+	color: rgb(169, 101, 113);
+	background-color: white;
+	/* width: 30rem; */
+	text-align: center;
+	border-radius: 1rem;
+	font-family: 'Dancing Script', sans-serif;
+	padding: 3rem;
+}
+/* ///////////////////////// */
+
+/* TIMER */
+.coming-soon {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.countdown {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	padding: 2rem;
+	color: white;
+	background-color: rgba(169, 101, 114, 0.557);
+	border-radius: 1rem;
+}
+.days,
+.hours,
+.minutes,
+.seconds {
+	font-size: 3rem;
+	padding: 0 3rem 3rem 3rem;
+}
+
+.two {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.img {
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+#strong {
+	font-style: italic;
+	font-size: 3rem;
+	font-weight: bold;
+	color: rgb(169, 101, 113);
+	font-family: 'Dancing Script', sans-serif;
+}
+
+/* ///////////TIMER ENDS */
+
+/* .///////////////SECTIONS ///////////*/
+.bride-groom {
+	padding: 5rem;
+}
+.bride-and-groom-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-size: 2rem;
+	line-height: 1.6;
+	margin-bottom: 4.3rem;
+	margin-top: 4rem;
+}
+.step-img-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.step-img-box::before,
+.step-img-box::after {
+	content: '';
+	display: block;
+	/* height: 60; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+.step-img-box::before {
+	background-color: rgba(228, 177, 187, 0.496);
+	padding-bottom: 60%;
+	width: 60%;
+	z-index: -1;
+}
+.step-img-box::after {
+	width: 45%;
+	padding-bottom: 50%;
+	background-color: rgb(234, 192, 200);
+	z-index: -1;
+}
+.step-img {
+	width: 35%;
+	border-radius: 2rem;
+}
+.step-description {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+	padding: 0 3.2rem;
+}
+.grid {
+	display: grid;
+	row-gap: 7.6rem;
+	column-gap: 6.4rem;
+}
+.grid--2-cols {
+	grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 25rem) {
+	.heading-two {
+		font-size: 2rem;
+	}
+	.coming-soon {
+		width: auto;
+	}
+}
+/* .link:link,
+.link:visited {
+	display: inline-block;
+	color: rgb(169, 101, 113);
+	text-decoration: none;
+	border-bottom: 1px solid currentColor;
+	padding-bottom: 2px;
+	transition: all 3sec;
+}
+.link:hover,
+.link:active {
+	color: rgb(169, 101, 113);
+	/* 1px solid transparent wont jump it */
+	border-bottom: 1px solid transparent;
+} */
