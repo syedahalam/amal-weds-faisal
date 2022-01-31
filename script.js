@@ -1,10 +1,10 @@
 // Make MOBILE nav work
 
-const btnNav = document.querySelector('.btn-mobile-nav');
-const headerNav = document.querySelector('.header');
+const btnNavEl = document.querySelector('.btn-mobile-nav');
+const headerEl = document.querySelector('.header');
 
-btnNav.addEventListener('click', function () {
-	headerNav.classList.toggle('.nav-open');
+btnNavEl.addEventListener('click', function () {
+	headerEl.classList.toggle('.nav-open');
 });
 
 ////////////////////smooth scrolling animation/////////////
@@ -29,7 +29,7 @@ allLinks.forEach(function (link) {
 		}
 		///////////////////close mobile nav////////////
 		if (link.classList.contains('main-nav-link'))
-			headerNav.classList.toggle('nav-open');
+			headerEl.classList.toggle('nav-open');
 	});
 });
 

@@ -252,7 +252,7 @@ General components
 		width: auto;
 	}
 }
-/* .link:link,
+.link:link,
 .link:visited {
 	display: inline-block;
 	color: rgb(169, 101, 113);
@@ -264,6 +264,6 @@ General components
 .link:hover,
 .link:active {
 	color: rgb(169, 101, 113);
-	/* 1px solid transparent wont jump it */
-	border-bottom: 1px solid transparent;
-} */
+	/* 1px solid transparent wont jump it 
+	/* border-bottom: 1px solid transparent; */
+}

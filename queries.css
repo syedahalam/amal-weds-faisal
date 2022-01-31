@@ -10,6 +10,27 @@
 	}
 }
 
+/* Below 1200 px (landscape tablets) */
+
+@media (max-width: 75em) {
+	html {
+		font-size: 70%;
+	}
+	.grid {
+		column-gap: 4.8rem;
+		row-gap: 6.4rem;
+	}
+	.header {
+		padding: 0 3.2rem;
+	}
+	.headings {
+		gap: 3.2rem;
+	}
+	.main-nav-list {
+		gap: 3.2rem;
+	}
+}
+
 /* below 944px (tablets) */
 @media (max-width: 59em) {
 	html {
@@ -104,6 +125,19 @@
 
 /* tablets */
 @media (max-width: 59em) {
+	.heading-two {
+		font-size: 3rem;
+	}
+	.headings {
+		gap: 2rem;
+	}
+	.days,
+	.hours,
+	.minutes,
+	.seconds {
+		font-size: 3rem;
+		padding: 1rem;
+	}
 }
 /* 🇨Below 544px for mobile */
 @media (max-width: 34em) {
@@ -139,7 +173,41 @@
 	.hours,
 	.minutes,
 	.seconds {
+		font-size: 3rem;
+		padding: 1rem;
+	}
+	.heading-two {
+		font-size: 3rem;
+	}
+	.headings {
+		gap: 2rem;
+	}
+	.bg-two {
+		font-size: 4rem;
+	}
+}
+
+/* Below 380px (iphone X) */
+@media (max-width: 30.56em) {
+	html {
+		font-size: 45%;
+	}
+	.days,
+	.hours,
+	.minutes,
+	.seconds {
 		font-size: 2rem;
 		padding: 1rem;
+	}
+	.bg-two {
+		font-size: 5rem;
+	}
+	.step-img-box {
+		transform: translateY(3rem);
+		/* width: 45rem; */
+	}
+	.step-img {
+		width: 45%;
+		border-radius: 2rem;
 	}
 }
