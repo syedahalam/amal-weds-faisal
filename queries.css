@@ -1,12 +1,31 @@
+/* 1344 px and less */
 @media (max-width: 84em) {
+	/* .header-background {
+		min-height: 100%;
+		min-width: 84rem;
+	} */
 	.headings {
 		max-width: 120rem;
 	}
 	.main-heading {
-		font-size: 4.4rem;
+		font-size: 6.4rem;
+		padding-top: 2rem;
 	}
-	.bride-and-groom-container {
-		grid-template-columns: 1fr;
+	.heading-two {
+		margin-top: -1.5rem;
+	}
+
+	.main-nav-link:link,
+	.main-nav-link:visited {
+		font-size: 2rem;
+	}
+	.logo {
+		font-size: 2.5rem;
+	}
+
+	.bg-two {
+		font-size: 4rem;
+		margin-bottom: 3rem;
 	}
 }
 
@@ -29,6 +48,24 @@
 	.main-nav-list {
 		gap: 3.2rem;
 	}
+}
+/* below 1024px (tablets) */
+@media (max-width: 64em) {
+	/* .days,
+	.hours,
+	.minutes,
+	.seconds {
+		font-size: 2rem;
+		padding: 3rem;
+		padding-top: 0;
+		padding-bottom: 0.5rem;
+		margin: -1rem;
+	}
+	.countdown {
+		height: 2rem;
+		padding: 3rem;
+		padding-top: 1.1rem;
+	} */
 }
 
 /* below 944px (tablets) */
@@ -123,7 +160,7 @@
 	}
 }
 
-/* tablets */
+/* tablets 944*/
 @media (max-width: 59em) {
 	.heading-two {
 		font-size: 3rem;
@@ -137,6 +174,25 @@
 	.seconds {
 		font-size: 3rem;
 		padding: 1rem;
+	}
+}
+/* tablets 912px*/
+@media (max-width: 57em) {
+	.countdown {
+		font-size: 2rem;
+	}
+	.days,
+	.hours,
+	.minutes,
+	.seconds {
+		font-size: 4rem;
+		padding: 3rem;
+	}
+	.heading-two {
+		font-size: 3rem;
+	}
+	.main-heading {
+		font-size: 5rem;
 	}
 }
 /* 🇨Below 544px for mobile */
@@ -185,19 +241,22 @@
 	.bg-two {
 		font-size: 4rem;
 	}
+	.description {
+		font-size: 2rem;
+	}
 }
 
-/* Below 380px (iphone X) */
+/* Below 485px (iphone X) */
 @media (max-width: 30.56em) {
 	html {
-		font-size: 45%;
+		font-size: 55%;
 	}
 	.days,
 	.hours,
 	.minutes,
 	.seconds {
 		font-size: 2rem;
-		padding: 1rem;
+		padding: 1.5rem;
 	}
 	.bg-two {
 		font-size: 5rem;
@@ -209,5 +268,63 @@
 	.step-img {
 		width: 45%;
 		border-radius: 2rem;
+	}
+}
+/* 475px */
+@media (max-width: 29.68em) {
+	.header-background {
+		background-position: 65% 45%;
+	}
+}
+@media (max-width: 25.75em) {
+	.header-background {
+		background-position: 15% 85%;
+	}
+}
+/* 455px */
+@media (max-width: 28.43em) {
+	html {
+		font-size: 50%;
+	}
+}
+/* 421px */
+@media (max-width: 26.43em) {
+	html {
+		font-size: 45%;
+	}
+	.header-background {
+		background-position: 45% 55%;
+	}
+}
+/* 412px */
+@media (max-width: 25.75em) {
+	.header-background {
+		background-position: 25% 75%;
+	}
+}
+/* 414px */
+@media (max-width: 25.875em) {
+	.header-background {
+		background-position: 5% 95%;
+	}
+}
+/* 280px */
+@media (max-width: 17.5em) {
+	html {
+		font-size: 40%;
+	}
+	.countdown {
+		padding: 0 1rem 0 1rem;
+		margin-top: -1rem;
+	}
+	.days,
+	.hours,
+	.minutes,
+	.seconds {
+		font-size: 2rem;
+		padding: 0 2rem 0 2rem;
+	}
+	.header-background {
+		background-position: 20% 80%;
 	}
 }

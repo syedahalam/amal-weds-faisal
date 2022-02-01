@@ -21,7 +21,7 @@ body {
 	align-items: center;
 	background-color: transparent;
 	/* coz we wanted to make it sticky thats why height is given */
-	height: 9.6rem;
+	height: 6rem;
 	padding: 0 48px;
 	position: relative;
 	color: white;
@@ -31,6 +31,7 @@ body {
 	background-image: url(./images/propose.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 75% 35%;
 	width: 100%;
 	height: 100vh;
 	z-index: 6;
@@ -126,7 +127,7 @@ General components
 
 .bg-two {
 	font-size: 4rem;
-	/* margin-left: 39%; */
+	/* margin: 0; */
 	color: rgb(169, 101, 113);
 	background-color: white;
 	/* width: 30rem; */
@@ -192,7 +193,7 @@ General components
 	font-size: 2rem;
 	line-height: 1.6;
 	margin-bottom: 4.3rem;
-	margin-top: 4rem;
+	margin-top: 7rem;
 }
 .step-img-box {
 	display: flex;
@@ -214,17 +215,17 @@ General components
 .step-img-box::before {
 	background-color: rgba(228, 177, 187, 0.496);
 	padding-bottom: 60%;
-	width: 60%;
+	width: 50%;
 	z-index: -1;
 }
 .step-img-box::after {
-	width: 45%;
+	width: 40%;
 	padding-bottom: 50%;
 	background-color: rgb(234, 192, 200);
 	z-index: -1;
 }
 .step-img {
-	width: 35%;
+	width: 30%;
 	border-radius: 2rem;
 }
 .step-description {
