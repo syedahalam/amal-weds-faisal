@@ -7,11 +7,8 @@
 }
 html {
 	font-size: 62.5%;
-	overflow-x: hidden;
 }
 body {
-	/* background-image: url(./images/propose.jpeg); */
-
 	font-family: 'Lato', sans-serif;
 	overflow-x: hidden;
 }
@@ -19,13 +16,15 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: transparent;
+
 	/* coz we wanted to make it sticky thats why height is given */
 	height: 6rem;
 	padding: 0 48px;
-	position: relative;
+	/* position: relative; */
+	/* position: fixed; */
 	color: white;
 	font-family: 'Dancing Script', sans-serif;
+	/* z-index: -10; */
 }
 .header-background {
 	background-image: url(./images/propose.jpeg);
@@ -34,7 +33,8 @@ body {
 	background-position: 75% 35%;
 	width: 100%;
 	height: 100vh;
-	z-index: 6;
+
+	position: relative;
 }
 .logo {
 	height: 2.2rem;
@@ -43,20 +43,20 @@ body {
 	color: rgb(169, 101, 113);
 }
 .main-nav-list {
-	list-style: none;
+	/* list-style: none; */
 	display: flex;
 	align-items: center;
-	gap: 3.2rem;
-	color: white;
+	gap: 4.2rem;
 }
+
 .main-nav-link:link,
 .main.nav-link:visited {
 	text-decoration: none;
 	color: rgb(169, 101, 113);
 	font-weight: 500;
-	font-size: 1.8rem;
-	transition: all 0.3s;
-	display: inline-block;
+	font-size: 2rem;
+	/* transition: all 0.3s;
+	display: inline-block; */
 }
 .main-nav-link:hover,
 .main.nav-link:active {
@@ -78,14 +78,13 @@ body {
 
 /* MOBILE */
 
-/* *************************************
-General components
-*/
+/* *************************************/
+/* General components */
 .btn-mobile-nav {
 	border: none;
-	background-color: none;
+	background: none;
 	cursor: pointer;
-
+	/* by default display non until reach to particular rems*/
 	display: none;
 }
 .icon-mobile-nav {

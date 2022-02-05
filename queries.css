@@ -81,11 +81,10 @@
 	/* MOBILE NAV */
 	.btn-mobile-nav {
 		display: block;
-		z-index: 1000;
 	}
 	.main-nav {
-		background-color: rgba(255, 255, 255, 0.975);
 		position: absolute;
+		background-color: rgba(255, 255, 255, 0.975);
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -95,12 +94,13 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		transition: all 0.5s;
+		transition: all 0.5s ease-in;
 
-		/* hide nav */
-		/* display: none; */
-
-		/* 1) Hide the element visually */
+		/* hide the navigation //////////////////*/
+		/* display: none;    --> transition doesn't work with this
+		so we have to do something else which is opacity and 2 more things below
+		*/
+		/* 1 step--> hide element visually */
 		opacity: 0;
 
 		/* 2) Make it accessible to mouse n keyboard */
@@ -129,6 +129,7 @@
 	.main-nav-link:link,
 	.main-nav-link:visited {
 		font-size: 3rem;
+		font-weight: 700;
 	}
 	.step-img-box {
 		/* transform: translateY(5rem); */
@@ -149,6 +150,9 @@
 	.bg-two {
 		font-size: 6rem;
 	}
+	.headings {
+		gap: 2rem;
+	}
 	.main-heading {
 		font-size: 6rem;
 	}
@@ -158,16 +162,6 @@
 	.logo {
 		font-size: 3rem;
 	}
-}
-
-/* tablets 944*/
-@media (max-width: 59em) {
-	.heading-two {
-		font-size: 3rem;
-	}
-	.headings {
-		gap: 2rem;
-	}
 	.days,
 	.hours,
 	.minutes,
@@ -176,6 +170,7 @@
 		padding: 1rem;
 	}
 }
+
 /* tablets 912px*/
 @media (max-width: 57em) {
 	.countdown {
@@ -306,6 +301,13 @@
 @media (max-width: 25.875em) {
 	.header-background {
 		background-position: 5% 95%;
+	}
+}
+/* 375px */
+@media (max-width: 23.4375) {
+	.bg-two {
+		/* font-size: 5rem; */
+		margin-bottom: 0;
 	}
 }
 /* 280px */
