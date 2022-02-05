@@ -43,7 +43,7 @@ body {
 	color: rgb(169, 101, 113);
 }
 .main-nav-list {
-	/* list-style: none; */
+	list-style: none;
 	display: flex;
 	align-items: center;
 	gap: 4.2rem;
