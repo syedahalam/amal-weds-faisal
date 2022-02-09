@@ -24,11 +24,18 @@
 			defer
 			src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
 		></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 	</head>
 	<body>
 		<div class="header-background">
 			<header class="header">
-				<a class="logo" href="#">Amal&Faisal </a>
+				<a class="logo" href="#">Amal&Faysal </a>
 
 				<nav class="main-nav">
 					<ul class="main-nav-list">
@@ -41,9 +48,7 @@
 						<li>
 							<a class="main-nav-link" href="#greetings">Greetings</a>
 						</li>
-						<li>
-							<a class="main-nav-link" href="#registry">Registry</a>
-						</li>
+
 						<li>
 							<a class="main-nav-link nav-cta" href="#rsvp">RSVP</a>
 						</li>
@@ -55,10 +60,8 @@
 				</button>
 			</header>
 
-			<!-- <img class="img" src="./images/propose.jpeg" alt="" /> -->
-
 			<div class="headings">
-				<h1 class="main-heading">Amal & Faisal</h1>
+				<h1 class="main-heading">Amal & Faysal</h1>
 				<h2 class="heading-two">are getting married in ...</h2>
 
 				<div class="countdown">
@@ -91,31 +94,126 @@
 				<div class="bride-and-groom-container grid grid--2-cols grid--center-v">
 					<!-- step#1 -->
 					<div class="step-text-box">
+						<h2 class="heading-two">Meet our Bride</h2>
 						<p class="description">
-							<span id="strong">About Amal </span> dolor sit, amet consectetur
-							adipisicing elit. Laudantium optio soluta assumenda provident, ad
-							dolor, rerum doloribus perferendis maxime enim nulla eos. Magnam
-							maiores voluptates adipisci distinctio eos at expedita?
+							<span class="bng">Amal Binmahfood </span> is the oldest gem of the
+							three in (family name) Crown. She graduates from Fordham
+							University, NY with a degree in Economics and Cybersecurity. After
+							graduation , this lovely will begin her career in the insurance
+							industry as an Underwriter. Amal's hobbies consist of fitness,
+							trying new foods, and spending time with family and close friends
+							:)
 						</p>
 					</div>
 					<div class="step-img-box">
-						<img src="./images/rings.jpeg" alt="" class="step-img" />
+						<img src="./images/amal.png" alt="" class="step-img" />
 					</div>
 
 					<!-- step#2 -->
 
 					<div class="step-img-box">
-						<img src="./images/rings.jpeg" alt="" class="step-img" />
+						<img src="./images/Faisal.png" alt="" class="step-img" />
 					</div>
 					<div class="step-text-box">
-						<p class="description">
-							<span id="strong">About Faisal </span> Lorem ipsum dolor sit, amet
+						<h2 class="heading-two">Faysal</h2>
+						<p class="faysal">
+							<span class="bng">Faysal </span>Lorem ipsum dolor sit, amet
 							consectetur adipisicing elit. Laudantium optio soluta assumenda
 							provident, ad dolor, rerum doloribus perferendis maxime enim nulla
 							eos. Magnam maiores voluptates adipisci distinctio eos at
 							expedita?
 						</p>
+						<!-- <i class="fal fa-dove fontasm"></i> -->
 					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="events" id="events">
+			<div class="events-head">
+				<h3 class="planning-heading">planning</h3>
+				<h2 class="heading-events">When & Where</h2>
+			</div>
+			<div class="container-events">
+				<div class="card">
+					<img src="./images/haldi.png" alt="wedding-pic" class="card-img" />
+					<header class="event-header">
+						<p class="event-name">Haldi</p>
+						<p class="event-date">June 2, 2022</p>
+						<p class="event-time">06:00pm - 10:00 pm</p>
+					</header>
+					<address>2524 Tiemann Avenue, Bronx, NY, 10469</address>
+					<a href="tel:8478901725" class="tel">847-890-1725</a>
+					<h2 class="map"></h2>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.378816130005!2d-73.8399335486355!3d40.86356017921417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28cb26c717c95%3A0xdc8706685d0b402c!2s2524%20Tiemann%20Ave%2C%20Bronx%2C%20NY%2010469!5e0!3m2!1sen!2sus!4v1644378818249!5m2!1sen!2sus"
+						class="map"
+						width="200"
+						height="200"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+					></iframe>
+				</div>
+
+				<div class="card">
+					<img src="./images/mehndi.jpg" alt="wedding-pic" class="card-img" />
+					<header class="event-header">
+						<p class="event-name">Mehndi</p>
+						<p class="event-date">June 3, 2022</p>
+						<p class="event-time">06:00pm - 10:00 pm</p>
+					</header>
+					<address>2524 Tiemann Avenue, Bronx, NY, 10469</address>
+					<a href="tel:8478901725" class="tel">847-890-1725</a>
+					<h2 class="map"></h2>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.378816130005!2d-73.8399335486355!3d40.86356017921417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28cb26c717c95%3A0xdc8706685d0b402c!2s2524%20Tiemann%20Ave%2C%20Bronx%2C%20NY%2010469!5e0!3m2!1sen!2sus!4v1644378818249!5m2!1sen!2sus"
+						width="200"
+						height="200"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+					></iframe>
+				</div>
+
+				<div class="card">
+					<img src="./images/shaadi.jpg" alt="wedding-pic" class="card-img" />
+					<header class="event-header">
+						<p class="event-name">Wedding</p>
+						<p class="event-date">June 5, 2022</p>
+						<p class="event-time">06:00pm - 10:00 pm</p>
+					</header>
+					<address>2524 Tiemann Avenue, Bronx, NY, 10469</address>
+					<a href="tel:8478901725" class="tel">847-890-1725</a>
+					<h2 class="map"></h2>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.378816130005!2d-73.8399335486355!3d40.86356017921417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28cb26c717c95%3A0xdc8706685d0b402c!2s2524%20Tiemann%20Ave%2C%20Bronx%2C%20NY%2010469!5e0!3m2!1sen!2sus!4v1644378818249!5m2!1sen!2sus"
+						width="200"
+						height="200"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+					></iframe>
+				</div>
+
+				<div class="card">
+					<img src="./images/valima.jpg" alt="wedding-pic" class="card-img" />
+					<header class="event-header">
+						<p class="event-name">Reception</p>
+						<p class="event-date">June 7, 2022</p>
+						<p class="event-time">06:00pm - 10:00 pm</p>
+					</header>
+					<address>2524 Tiemann Avenue, Bronx, NY, 10469</address>
+					<a href="tel:8478901725" class="tel">847-890-1725</a>
+					<h2 class="map"></h2>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.378816130005!2d-73.8399335486355!3d40.86356017921417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28cb26c717c95%3A0xdc8706685d0b402c!2s2524%20Tiemann%20Ave%2C%20Bronx%2C%20NY%2010469!5e0!3m2!1sen!2sus!4v1644378818249!5m2!1sen!2sus"
+						width="200"
+						height="200"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+					></iframe>
 				</div>
 			</div>
 		</section>
