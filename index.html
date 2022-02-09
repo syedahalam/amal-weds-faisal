@@ -217,5 +217,53 @@
 				</div>
 			</div>
 		</section>
+		<!-- ///////////////////////////////////Events Section ends here/////// -->
+
+		<!-- RSVP Section Starts here//////////////////////// -->
+
+		<section class="rsvp" id="rsvp">
+			<div class="container-rsvp">
+				<h3 class="rsvp--planning-heading">planning</h3>
+				<div class="rsvp-heading">
+					<h2 class="heading-rsvp">Will you attend?</h2>
+
+					<form action="">
+						<div class="form-control">
+							<input type="text" id="name" required />
+							<label for="name">Name</label>
+						</div>
+						<div class="form-control">
+							<input type="text" id="email" required />
+							<label for="email">Your email</label>
+						</div>
+
+						<div class="form-control">
+							<input type="radio" id="yes" name="attending" />
+							<label for="yes">I am attending</label>
+							<input type="radio" id="no" name="attending" />
+							<label for="no">Sorry</label>
+						</div>
+
+						<div class="form-control">
+							<input type="number" list="Guests" name="Guests" />
+							<label for="Guests">Guests attending</label>
+							<datalist id="Guests" aria-placeholder="Guests attending">
+								<option value="0"></option>
+								<option value="1"></option>
+								<option value="2"></option>
+								<option value="3"></option>
+								<option value="4"></option>
+								<option value="5"></option>
+								<option value="6"></option>
+								<option value="7"></option>
+							</datalist>
+						</div>
+
+						<button class="btn">Submit</button>
+					</form>
+				</div>
+				<div class="bg"></div>
+			</div>
+		</section>
 	</body>
 </html>

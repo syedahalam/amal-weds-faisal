@@ -77,6 +77,8 @@ body {
 .main-nav-link:hover,
 .main.nav-link:active {
 	color: rgb(179, 105, 120);
+	/* background-color: rgba(244, 206, 214, 0.606); */
+	/* padding: 1rem; */
 }
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
@@ -200,14 +202,15 @@ body {
 .bride-groom {
 	padding: 5rem;
 	height: 100vh;
-	margin-bottom: 3rem;
+	margin-bottom: 5rem;
+	height: 100vh;
 }
 .bride-and-groom-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	font-size: 2rem;
 	line-height: 1.6;
-	margin-bottom: 4.3rem;
+	margin-bottom: 5.3rem;
 	margin-top: 7rem;
 }
 .step-img-box {
@@ -363,6 +366,54 @@ address {
 	padding: 4rem 10rem 4rem 10rem;
 
 	border-radius: 5px;
+}
+
+/* RSVP section///////////////////////// */
+.container-rsvp {
+	/* display: grid;
+	grid-template-columns: 1fr 1.5fr;
+
+	border-top: 0.5px solid rgb(68, 42, 42); */
+	background-image: url(./images/will.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 70% 30%;
+
+	height: 100vh;
+}
+.bg {
+}
+.rsvp-heading {
+	display: flex;
+	/* flex-direction: column; */
+	/* align-items: center; */
+	/* commented justify-content so that heading will be on top not in the mid of the page */
+	justify-content: center;
+	gap: 4rem;
+
+	padding-top: 2rem;
+
+	font-size: 1.5rem;
+
+	/* for no wrapping of heading */
+	white-space: nowrap;
+}
+
+.heading-rsvp {
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 6rem;
+	color: rgb(111, 59, 69);
+}
+.rsvp--planning-heading {
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	color: rgb(101, 85, 89);
+	border: 1px dotted rgb(169, 101, 113);
+	width: 15rem;
+	text-align: center;
+	padding: 0.5rem;
+	margin: 2rem;
 }
 
 /*  */
