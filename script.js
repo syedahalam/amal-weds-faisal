@@ -60,3 +60,17 @@ const countDown = () => {
 };
 // console.log(textSeconds);
 setInterval(countDown, 1000);
+
+// ////////////// Form wave text////////////
+
+const labels = document.querySelectorAll('.form-control label');
+
+labels.forEach((label) => {
+	label.innerHTML = label.innerText
+		.split('')
+		.map(
+			(letter, idx) =>
+				`<span style="transition-delay:${idx * 60}ms">${letter}</span>`
+		)
+		.join('');
+});

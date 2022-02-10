@@ -46,7 +46,7 @@
 							<a class="main-nav-link" href="#events">Events</a>
 						</li>
 						<li>
-							<a class="main-nav-link" href="#greetings">Greetings</a>
+							<a class="main-nav-link" href="#greetings">Gallery</a>
 						</li>
 
 						<li>
@@ -223,10 +223,9 @@
 
 		<section class="rsvp" id="rsvp">
 			<div class="container-rsvp">
-				<h3 class="rsvp--planning-heading">planning</h3>
 				<div class="rsvp-heading">
+					<h3 class="rsvp--planning-heading">planning</h3>
 					<h2 class="heading-rsvp">Will you attend?</h2>
-
 					<form action="">
 						<div class="form-control">
 							<input type="text" id="name" required />
@@ -237,17 +236,10 @@
 							<label for="email">Your email</label>
 						</div>
 
-						<div class="form-control">
-							<input type="radio" id="yes" name="attending" />
-							<label for="yes">I am attending</label>
-							<input type="radio" id="no" name="attending" />
-							<label for="no">Sorry</label>
-						</div>
-
-						<div class="form-control">
+						<div class="datalist">
 							<input type="number" list="Guests" name="Guests" />
-							<label for="Guests">Guests attending</label>
-							<datalist id="Guests" aria-placeholder="Guests attending">
+							<label for="Guests" class="label">Guests attending</label>
+							<datalist id="Guests">
 								<option value="0"></option>
 								<option value="1"></option>
 								<option value="2"></option>
@@ -257,6 +249,13 @@
 								<option value="6"></option>
 								<option value="7"></option>
 							</datalist>
+						</div>
+
+						<div class="radio">
+							<input type="radio" id="yes" name="attending" class="yes" />
+							<label for="yes">I am attending</label>
+							<input type="radio" id="no" name="attending" class="yes" />
+							<label for="no">I am not attending</label>
 						</div>
 
 						<button class="btn">Submit</button>
