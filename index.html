@@ -9,6 +9,12 @@
 		<script defer src="script.js"></script>
 		<title>Amal&Faisal</title>
 		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"
+			integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
 			type="module"
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
 		></script>
@@ -24,6 +30,13 @@
 			defer
 			src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
 		></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+			integrity="sha512-eMxdaSf5XW3ZW1wZCrWItO2jZ7A9FhuZfjVdztr7ZsKNOmt6TUMTQgfpNoVRyfPE5S9BC0A4suXzsGSrAOWcoQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -140,14 +153,16 @@
 			</div>
 			<div class="container-events">
 				<div class="card">
+					<div class="seperate haldi">
+						<header class="event-header">
+							<p class="event-name">Haldi</p>
+							<p class="event-date">June 2, 2022</p>
+							<p class="event-time">06:00pm - 10:00 pm</p>
+						</header>
+						<address>21 Beachview Avenue, Dreamland, NY, 12345</address>
+						<a href="tel:1231231234" class="tel">1234567890</a>
+					</div>
 					<img src="./images/haldi.png" alt="wedding-pic" class="card-img" />
-					<header class="event-header">
-						<p class="event-name">Haldi</p>
-						<p class="event-date">June 2, 2022</p>
-						<p class="event-time">06:00pm - 10:00 pm</p>
-					</header>
-					<address>21 Beachview Avenue, Dreamland, NY, 12345</address>
-					<a href="tel:1231231234" class="tel">1234567890</a>
 					<h2 class="map"></h2>
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.378816130005!2d-73.8399335486355!3d40.86356017921417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28cb26c717c95%3A0xdc8706685d0b402c!2s2524%20Tiemann%20Ave%2C%20Bronx%2C%20NY%2010469!5e0!3m2!1sen!2sus!4v1644378818249!5m2!1sen!2sus"
@@ -162,13 +177,16 @@
 
 				<div class="card">
 					<img src="./images/mehndi.jpg" alt="wedding-pic" class="card-img" />
-					<header class="event-header">
-						<p class="event-name">Mehndi</p>
-						<p class="event-date">June 3, 2022</p>
-						<p class="event-time">06:00pm - 10:00 pm</p>
-					</header>
-					<address>21 Beachview Avenue, Dreamland, NY, 12345</address>
-					<a href="tel:123-456-7890" class="tel">123-456-7890</a>
+					<div class="mehndi">
+						<header class="event-header">
+							<p class="event-name">Mehndi</p>
+							<p class="event-date">June 3, 2022</p>
+							<p class="event-time">06:00pm - 10:00 pm</p>
+						</header>
+						<address>21 Beachview Avenue, Dreamland, NY, 12345</address>
+						<a href="tel:123-456-7890" class="tel">123-456-7890</a>
+					</div>
+
 					<h2 class="map"></h2>
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.378816130005!2d-73.8399335486355!3d40.86356017921417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28cb26c717c95%3A0xdc8706685d0b402c!2s2524%20Tiemann%20Ave%2C%20Bronx%2C%20NY%2010469!5e0!3m2!1sen!2sus!4v1644378818249!5m2!1sen!2sus"
@@ -181,14 +199,17 @@
 				</div>
 
 				<div class="card">
+					<div class="seperate wedding">
+						<header class="event-header">
+							<p class="event-name">Wedding</p>
+							<p class="event-date">June 5, 2022</p>
+							<p class="event-time">06:00pm - 10:00 pm</p>
+						</header>
+
+						<address>21 Beachview Avenue, Dreamland, NY, 12345</address>
+						<a href="tel:123-456-7890" class="tel">123-456-7890</a>
+					</div>
 					<img src="./images/shaadi.jpg" alt="wedding-pic" class="card-img" />
-					<header class="event-header">
-						<p class="event-name">Wedding</p>
-						<p class="event-date">June 5, 2022</p>
-						<p class="event-time">06:00pm - 10:00 pm</p>
-					</header>
-					<address>21 Beachview Avenue, Dreamland, NY, 12345</address>
-					<a href="tel:123-456-7890" class="tel">123-456-7890</a>
 					<h2 class="map"></h2>
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.378816130005!2d-73.8399335486355!3d40.86356017921417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28cb26c717c95%3A0xdc8706685d0b402c!2s2524%20Tiemann%20Ave%2C%20Bronx%2C%20NY%2010469!5e0!3m2!1sen!2sus!4v1644378818249!5m2!1sen!2sus"
@@ -202,13 +223,15 @@
 
 				<div class="card">
 					<img src="./images/valima.jpg" alt="wedding-pic" class="card-img" />
-					<header class="event-header">
-						<p class="event-name">Reception</p>
-						<p class="event-date">June 7, 2022</p>
-						<p class="event-time">06:00pm - 10:00 pm</p>
-					</header>
-					<address>21 Beachview Avenue, Dreamland, NY, 12345</address>
-					<a href="tel:123-456-7890" class="tel">123-456-7890</a>
+					<div class="reception">
+						<header class="event-header">
+							<p class="event-name">Reception</p>
+							<p class="event-date">June 7, 2022</p>
+							<p class="event-time">06:00pm - 10:00 pm</p>
+						</header>
+						<address>21 Beachview Avenue, Dreamland, NY, 12345</address>
+						<a href="tel:123-456-7890" class="tel">123-456-7890</a>
+					</div>
 					<h2 class="map"></h2>
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.378816130005!2d-73.8399335486355!3d40.86356017921417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28cb26c717c95%3A0xdc8706685d0b402c!2s2524%20Tiemann%20Ave%2C%20Bronx%2C%20NY%2010469!5e0!3m2!1sen!2sus!4v1644378818249!5m2!1sen!2sus"
@@ -225,6 +248,101 @@
 
 		<!-- parallex3 -->
 		<div class="parallax3"></div>
+		<!-- /////////////////// -->
+
+		<!-- Meet the family///////////////// Starts here -->
+
+		<section class="gallery" id="gallery">
+			<section id="slider">
+				<div class="container-gallery">
+					<div class="subcontainer">
+						<div class="slider-wrapper">
+							<div>
+								<h2 class="heading-gallery">Meet The Family</h2>
+							</div>
+							<br />
+							<div class="my-slider">
+								<!-- fotb -->
+								<div>
+									<div class="slide">
+										<div class="slide-img img-bhai">
+											<h2>Bhai</h2>
+										</div>
+										<br />
+										<div>
+											<h3>Father Of The Bride</h3>
+										</div>
+									</div>
+								</div>
+								<!-- motb//////// -->
+								<div>
+									<div class="slide">
+										<div class="slide-img img-zakia">
+											<h2>Zakia</h2>
+										</div>
+										<br />
+										<div>
+											<h3>Mother Of The Bride</h3>
+										</div>
+									</div>
+								</div>
+								<!-- sister of the bride -->
+								<div>
+									<div class="slide">
+										<div class="slide-img img-sheema">
+											<h2>Sheema</h2>
+										</div>
+										<br />
+										<div>
+											<h3>Sister Of The Bride</h3>
+										</div>
+									</div>
+								</div>
+								<!-- botb////////////// -->
+								<div>
+									<div class="slide">
+										<div class="slide-img img-fahad">
+											<h2>Fahad</h2>
+										</div>
+										<br />
+										<div>
+											<h3>Brother Of The Bride</h3>
+										</div>
+									</div>
+								</div>
+								<!-- fotg -->
+								<div>
+									<div class="slide">
+										<div class="slide-img img-bhaig">
+											<h2>Bhai</h2>
+										</div>
+										<br />
+										<div>
+											<h3>Father Of The Groom</h3>
+										</div>
+									</div>
+								</div>
+								<!-- motg/////////////// -->
+								<div>
+									<div class="slide">
+										<div class="slide-img img-bhaabi">
+											<h2>Bhaabi</h2>
+										</div>
+										<br />
+										<div>
+											<h3>Mother Of The Groom</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<!-- parallex-gallery -->
+		<div class="parallax-gallery"></div>
 		<!-- /////////////////// -->
 
 		<!-- RSVP Section Starts here//////////////////////// -->

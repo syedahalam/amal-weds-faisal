@@ -284,12 +284,13 @@ body {
 	position: relative;
 }
 .parallax3 {
-	background: url(./images/mithai.jpg);
+	background: url(./images/Amals-fam.jpeg);
 	min-height: 40%;
 
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 15% 85%;
+	background-position: 55% 45%;
+
 	background-attachment: fixed;
 	width: 100%;
 	height: 100vh;
@@ -314,7 +315,7 @@ body {
 	color: rgb(169, 101, 113);
 	text-align: center;
 	font-weight: 600;
-	padding: 1rem;
+	padding-top: 1rem;
 }
 .event-date {
 	font-size: 2rem;
@@ -328,10 +329,38 @@ body {
 }
 iframe {
 	width: 100%;
-	height: 40%;
+	height: 30%;
 }
 address {
 	font-size: 1rem;
+	padding-bottom: 1rem;
+}
+.seperate {
+	height: 35%;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.haldi {
+	background-color: yellow;
+	width: 100%;
+	padding-bottom: 1rem;
+}
+.mehndi {
+	background-color: rgb(62, 73, 4);
+	width: 100%;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+.wedding {
+	background-color: rgba(176, 11, 11, 0.852);
+	width: 100%;
+	padding-bottom: 1rem;
+}
+.reception {
+	background-color: rgb(205, 225, 233);
+	width: 100%;
+	text-align: center;
+	padding-bottom: 1rem;
 }
 .card-img {
 	margin-top: -25px;
@@ -339,7 +368,8 @@ address {
 	height: 40%;
 }
 .tel {
-	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	text-align: center;
 }
 .card {
 	background-color: white;
@@ -349,7 +379,7 @@ address {
 	flex-direction: column;
 	margin: 2rem;
 	width: 25rem;
-	height: 55rem;
+	height: 45rem;
 	box-shadow: 0 2.4rem 4.8rem 4.8rem rgba(0, 0, 0, 0.075);
 	border: 1px solid rgb(169, 101, 113);
 	border-radius: 1rem;
@@ -399,6 +429,89 @@ address {
 	border-radius: 5px;
 }
 
+/* ////////////// Gallery Section */
+#slider {
+	height: 500px;
+	/* border: 1px solid #000; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container-gallery {
+	width: 1600px;
+	margin: auto;
+}
+.subcontainer {
+	width: 85%;
+	margin: auto;
+}
+h2,
+h3 {
+	text-align: center;
+	color: pink;
+}
+.heading-gallery {
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 6rem;
+	color: rgb(169, 101, 113);
+	padding-bottom: 4rem;
+}
+.slide-img {
+	width: 80%;
+	height: 200px;
+	border-radius: 5px;
+	background-position: center;
+	background-size: cover;
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+}
+.slide-img:hover {
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.5) inset;
+}
+.slide-img h2 {
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1.5rem;
+	color: #fff;
+}
+.slide-img:hover h2 {
+	opacity: 1;
+	transform: scale(1);
+}
+.img-bhai {
+	background-image: url(./images/bhai.jpg);
+	background-position: 75% 25%;
+}
+.img-zakia {
+	background-image: url(./images/zakia.jpg);
+	background-position: 70% 30%;
+}
+.img-sheema {
+	background-image: url(./images/sheema.png);
+	background-position: 75% 35%;
+}
+.img-fahad {
+	background-image: url(./images/fahad.jpg);
+	background-position: 85% 15%;
+}
+.img-bhaig {
+	background-image: url(./images/groom-dad.jpeg);
+	background-position: 85% 15%;
+}
+.img-bhaabi {
+	background-image: url(./images/groom-mom.jpg);
+	background-position: 65% 35%;
+}
+@media (max-width: 1600px) {
+	.container-gallery {
+		width: 100%;
+	}
+}
 /* RSVP section///////////////////////// */
 /* .rsvp {
 	overflow: hidden;
@@ -560,6 +673,19 @@ input[type='number'] {
 	width: 100%;
 	height: 100vh;
 	background-position: 60% 40%;
+	position: relative;
+}
+.parallax-gallery {
+	background: url(./images/mithai.jpg);
+	/* min-height: 40%; */
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 25% 75%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+
 	position: relative;
 }
 /*  */
