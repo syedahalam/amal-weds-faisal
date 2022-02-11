@@ -33,7 +33,7 @@ allLinks.forEach(function (link) {
 	});
 });
 
-// timer////////////
+////////////////// timer section////////////
 const countDown = () => {
 	const countDate = new Date('June 05, 2022 16:00:00').getTime();
 	// console.log(countDate);
@@ -61,7 +61,7 @@ const countDown = () => {
 // console.log(textSeconds);
 setInterval(countDown, 1000);
 
-// ////////////// Form wave text////////////
+// ////////////// Form wave text section ////////////
 
 const labels = document.querySelectorAll('.form-control label');
 
@@ -74,7 +74,7 @@ labels.forEach((label) => {
 		)
 		.join('');
 });
-// ////////////// gallery/////////////
+// ////////////// gallery section /////////////
 
 const slider = tns({
 	container: '.my-slider',
@@ -102,3 +102,4 @@ const slider = tns({
 		},
 	},
 });
+// ////////////////////////////////// end of gallery ////////

@@ -22,12 +22,13 @@ body {
 
 	/* coz we wanted to make it sticky thats why height is given */
 	height: 5rem;
+	width: 100%;
 	padding: 0 48px;
-	/* position: relative; */
-	/* position: fixed; */
+	position: relative;
+	position: fixed;
 	color: white;
 	font-family: 'Dancing Script', sans-serif;
-	/* z-index: -10; */
+	z-index: 10;
 }
 .header-background {
 	background-image: url(./images/propose.jpeg);
@@ -63,11 +64,17 @@ body {
 	text-decoration: none;
 	color: white;
 }
+.main-nav ul li {
+	color: #fff !important;
+}
 .main-nav-list {
 	list-style: none;
 	display: flex;
 	align-items: center;
 	gap: 4.2rem;
+	color: #fff;
+}
+.main-nav-link.bandg {
 	color: #fff;
 }
 
@@ -106,7 +113,7 @@ body {
 /* General components */
 .btn-mobile-nav {
 	border: none;
-	background: none;
+	background: rgba(255, 255, 255, 0.469);
 	cursor: pointer;
 	/* by default display non until reach to particular rems*/
 	display: none;
@@ -132,8 +139,10 @@ body {
 	text-align: center;
 	font-size: 12rem;
 	font-weight: bold;
-	/* padding: 5rem 5rem 1rem 5rem; */
+	padding: 5rem 5rem 1rem 5rem;
+	margin-top: 5rem;
 	color: #fff;
+	color: rgba(169, 101, 114);
 	font-family: 'Dancing Script', sans-serif;
 }
 .heading-two {
