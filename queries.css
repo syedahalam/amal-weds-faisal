@@ -224,7 +224,7 @@
 		text-align: center;
 		padding: 0.5rem;
 		color: white;
-		background-color: rgba(169, 101, 114, 0.557);
+		background-color: rgba(128, 0, 0, 0.633);
 		border-radius: 1rem;
 		font-size: 1rem;
 	}
@@ -308,11 +308,18 @@
 /* 414px */
 @media (max-width: 25.875em) {
 	.header-background {
-		background-position: 5% 95%;
+		/* background-position: 5% 95%; */
+		background-size: cover;
 	}
 }
 /* 375px */
 @media (max-width: 23.4375) {
+	.header-background {
+		width: 100%;
+		height: 100vh;
+		background-size: cover;
+		background-position: 25% 75%;
+	}
 	.bg-two {
 		/* font-size: 5rem; */
 		margin-bottom: 0;
