@@ -125,3 +125,4 @@ const sendEmail = () => {
 			document.getElementById('message').value,
 	}).then((message) => alert('Message sent successfully!'));
 };
+/////////////////////////////// end of form ////////////////////////
