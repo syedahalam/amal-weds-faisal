@@ -4,9 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
-		<link rel="stylesheet" href="queries.css" />
-		<script defer src="script.js"></script>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./queries.css" />
+		<script defer src="./script.js"></script>
+
 		<title>Amal&Faisal</title>
 		<script
 			src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"
@@ -30,6 +31,7 @@
 			defer
 			src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
 		></script>
+		<script defer src="./script.js"></script>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
@@ -357,40 +359,46 @@
 				<div class="rsvp-heading">
 					<h3 class="rsvp--planning-heading">Invitation</h3>
 					<h2 class="heading-rsvp">Will you attend?</h2>
-					<form action="">
-						<div class="form-control">
-							<input type="text" id="name" required />
-							<label for="name">Name</label>
-						</div>
-						<div class="form-control">
-							<input type="text" id="email" required />
-							<label for="email">Your email</label>
-						</div>
 
-						<div class="datalist">
-							<input type="number" list="Guests" name="Guests" />
-							<label for="Guests" class="label">Guests attending</label>
-							<datalist id="Guests">
-								<option value="0"></option>
-								<option value="1"></option>
-								<option value="2"></option>
-								<option value="3"></option>
-								<option value="4"></option>
-								<option value="5"></option>
-								<option value="6"></option>
-								<option value="7"></option>
-							</datalist>
-						</div>
+					<div class="form-container">
+						<form
+							onsubmit="sendEmail(); reset(); return false"
+							class="contact-form"
+						>
+							<div class="form-control">
+								<input type="text" id="name" required />
+								<label for="name">Name</label>
+							</div>
+							<div class="form-control">
+								<input type="text" id="email" required />
+								<label for="email">Your email</label>
+							</div>
 
-						<div class="radio">
-							<input type="radio" id="yes" name="attending" class="yes" />
-							<label for="yes">I am attending</label>
-							<input type="radio" id="no" name="attending" class="yes" />
-							<label for="no">I am not attending</label>
-						</div>
+							<div class="datalist">
+								<input type="number" list="Guests" name="Guests" id="guests" />
+								<label for="Guests" class="label">Guests attending</label>
+								<datalist id="Guests">
+									<option value="0"></option>
+									<option value="1"></option>
+									<option value="2"></option>
+									<option value="3"></option>
+									<option value="4"></option>
+									<option value="5"></option>
+									<option value="6"></option>
+									<option value="7"></option>
+								</datalist>
+							</div>
 
-						<button class="btn">Submit</button>
-					</form>
+							<textarea
+								id="message"
+								rows="4"
+								placeholder="Your message!"
+							></textarea>
+
+							<!-- <button class="btn">Submit</button> -->
+							<input type="submit" class="btn" value="Submit" />
+						</form>
+					</div>
 				</div>
 				<div class="bg"></div>
 			</div>
@@ -452,5 +460,7 @@
 			</div>
 			<p class="copyright">Copyright &copy; 2022 | All right are reserved</p>
 		</footer>
+
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
 	</body>
 </html>
