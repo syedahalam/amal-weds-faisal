@@ -1,9 +1,10 @@
 /* 1344 px and less */
 @media (max-width: 84em) {
-	/* .header-background {
-		min-height: 100%;
-		min-width: 84rem;
-	} */
+	.header-background {
+		/* min-height: 100%;
+		min-width: 84rem; */
+		background-position: 82% 28%;
+	}
 	.headings {
 		max-width: 120rem;
 	}
@@ -51,7 +52,10 @@
 }
 /* below 1024px (tablets) */
 @media (max-width: 64em) {
-	/* .days,
+	.headings {
+		gap: 1rem;
+	}
+	.days,
 	.hours,
 	.minutes,
 	.seconds {
@@ -65,7 +69,10 @@
 		height: 2rem;
 		padding: 3rem;
 		padding-top: 1.1rem;
-	} */
+	}
+	.container-events {
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 /* below 944px (tablets) */
@@ -313,18 +320,53 @@
 	}
 }
 /* 375px */
-@media (max-width: 23.4375) {
+@media (max-width: 23.4375em) {
 	.header-background {
 		width: 100%;
 		height: 100vh;
 		background-size: cover;
-		background-position: 25% 75%;
+		/* background-position: 85% 15%; */
 	}
 	.bg-two {
 		/* font-size: 5rem; */
 		margin-bottom: 0;
 	}
+	/* .countdown {
+		height: 1rem;
+		padding: 13rem;
+		padding-top: 1.1rem;
+	} */
+	/* .bride-groom {
+		padding: 2rem;
+		height: 100vh;
+		margin-bottom: 5rem;
+		height: 100vh;
+	} */
+	/* .bride-and-groom-container {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		font-size: 2rem;
+		line-height: 1.2;
+		margin-bottom: 5.3rem;
+		margin-top: 3rem;
+	} 
+	 .step-img-box::before,
+.step-img-box::after {
+	content: '';
+	display: block;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+} */
+	.container-events {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+	}
 }
+
 /* 280px */
 @media (max-width: 17.5em) {
 	html {
