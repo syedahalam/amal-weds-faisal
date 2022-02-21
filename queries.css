@@ -463,12 +463,12 @@
 		margin-bottom: 0;
 	}
 	.heading-two {
-		margin-top: 40rem;
+		margin-top: 35rem;
 	}
 	.countdown {
 		height: 10rem;
 
-		/* width: 50rem; */
+		width: 50rem;
 	}
 	.days,
 	.hours,
