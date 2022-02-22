@@ -505,7 +505,7 @@
 /* 488px->30.5em */
 @media (max-width: 30.5em) {
 	.step-img {
-		height: 20rem;
+		height: 16rem;
 		width: 16rem;
 	}
 }
