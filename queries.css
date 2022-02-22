@@ -599,6 +599,14 @@
 
 /* 390px */
 @media (max-width: 24.375em) {
+	.parallax2,
+	.parallaxdiay,
+	.parallax3,
+	.parallax-gallery,
+	.parallax4 {
+		display: none;
+	}
+
 	.header-background {
 		width: 100%;
 		height: 100vh;
