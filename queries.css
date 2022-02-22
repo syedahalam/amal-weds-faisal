@@ -407,6 +407,14 @@
 	.container-rsvp {
 		grid-template-columns: 1fr;
 	}
+	.bg {
+		background-image: url(./images/standingboth.jpeg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 70% 30%;
+
+		/* height: 100vh; */
+	}
 }
 /* 590px->36.875 */
 @media (max-width: 37.875em) {
