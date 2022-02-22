@@ -641,7 +641,8 @@
 	}
 
 	.step-img {
-		height: 15rem;
+		height: 12rem;
+		width: 12rem;
 	}
 	.step-description {
 		font-size: 2rem;
@@ -681,5 +682,9 @@
 		height: 120px;
 		transform-style: preserve-3d;
 		animation: rotate 30s linear infinite;
+	}
+	.step-img {
+		height: 10rem;
+		width: 10rem;
 	}
 }
