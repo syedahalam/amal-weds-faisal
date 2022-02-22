@@ -499,14 +499,15 @@
 /* 514px->32.125em */
 @media (max-width: 32.125em) {
 	.step-img {
-		height: 13rem;
+		height: 12rem;
+		width: 12rem;
 	}
 }
 /* 488px->30.5em */
 @media (max-width: 30.5em) {
 	.step-img {
-		height: 16rem;
-		width: 16rem;
+		height: 12rem;
+		width: 12rem;
 	}
 }
 
