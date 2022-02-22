@@ -338,6 +338,14 @@
 		font-size: 2.5rem;
 	}
 }
+/* 790px->49.375em */
+@media (max-width: 49.375em) {
+	.container-rsvp {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		justify-content: center;
+	}
+}
 
 /* 768px->48em */
 @media (max-width: 48em) {
@@ -395,6 +403,9 @@
 	}
 	.bg-two {
 		font-size: 5rem;
+	}
+	.container-rsvp {
+		grid-template-columns: 1fr;
 	}
 }
 /* 590px->36.875 */
@@ -668,6 +679,11 @@
 	}
 	.container-rsvp {
 		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		justify-content: center;
+	}
+	.container-rsvp:nth-child(2) {
+		grid-row: 1;
 	}
 }
 
