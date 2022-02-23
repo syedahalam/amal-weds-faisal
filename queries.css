@@ -672,6 +672,9 @@
 	.parallax4 {
 		display: none;
 	}
+	.head2 {
+		margin-top: 40rem;
+	}
 
 	.header-background {
 		width: 100%;
