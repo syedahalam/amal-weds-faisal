@@ -168,11 +168,11 @@ body {
 }
 .head2 {
 	display: flex;
-	align-items: flex-end;
-	justify-content: space-around;
+	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 	gap: 1rem;
-	margin-top: 60rem;
+	margin-top: 40rem;
 }
 
 /* ///////////////////////// */
