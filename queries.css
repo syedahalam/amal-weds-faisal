@@ -294,7 +294,9 @@
 		width: 16rem;
 	}
 	.step-text-box {
-		margin: 9rem;
+		/* margin: 9rem; */
+		margin-top: 9rem;
+		margin-bottom: 9rem;
 		text-align: center;
 	}
 	.step-img-box::before {
