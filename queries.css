@@ -28,6 +28,9 @@
 		font-size: 4rem;
 		margin-bottom: 3rem;
 	}
+	.slide-img {
+		margin: 0 auto;
+	}
 }
 
 /* Below 1200 px (landscape tablets) */
@@ -47,6 +50,18 @@
 	}
 	.main-nav-list {
 		gap: 3.2rem;
+	}
+	.countdown {
+		/* padding: 1rem; */
+		width: 35rem;
+		height: 7rem;
+	}
+	.days,
+	.hours,
+	.minutes,
+	.seconds {
+		padding: 0;
+		font-size: 2rem;
 	}
 }
 /* below 1024px (tablets) */
@@ -94,18 +109,13 @@
 	}
 	.countdown {
 		height: 7rem;
-		width: 45rem;
-	}
-	.countdown-counter {
-		padding-left: 2rem;
-		padding-right: 2rem;
+		width: 35rem;
 	}
 	.days,
 	.hours,
 	.minutes,
 	.seconds {
-		font-size: 3rem;
-		padding: 1rem;
+		font-size: 2rem;
 	}
 
 	/* MOBILE NAV */
@@ -173,7 +183,7 @@
 
 	.step-img-box {
 		/* transform: translateY(5rem); */
-		margin: 3rem;
+		/* margin: 3rem; */
 	}
 	/* .step-img-box:nth-child(1) {
 		grid-row: 2;
@@ -199,12 +209,10 @@
 		background-color: rgb(169, 101, 113);
 		z-index: -1;
 	}
-	/* .amal {
-		font-size: 1rem;
-	} */
+
 	.step-img {
 		width: 40%;
-		height: 30%;
+		height: 50%;
 		border-radius: 2rem;
 	}
 	.fimg {
@@ -226,8 +234,8 @@
 @media (max-width: 57em) {
 	.countdown {
 		font-size: 2rem;
-		height: 12rem;
-		width: 50rem;
+		height: 8rem;
+		width: 35rem;
 	}
 	.days,
 	.hours,
@@ -282,29 +290,29 @@
 		grid-row: 2;
 	}
 	.step-img-box:nth-child(3) {
-		padding-bottom: 2rem;
+		/* padding-bottom: 2rem; */
 		grid-row: 4;
 	}
 	.step-img {
-		height: 20rem;
-		width: 19rem;
+		height: 16rem;
+		width: 16rem;
 	}
 	.step-text-box {
-		margin: 4rem;
+		margin: 9rem;
 		text-align: center;
 	}
 	.step-img-box::before {
 		/* background-color: rgba(179, 90, 106, 0.612); */
 		background-color: maroon;
-		padding-bottom: 60%;
-		width: 50%;
-		height: 7%;
+		/* padding-bottom: 60%; */
+		width: 40%;
+		height: 10%;
 		z-index: -1;
 	}
 	.step-img-box::after {
-		width: 40%;
-		height: 7%;
-		padding-bottom: 50%;
+		width: 30%;
+		height: 10%;
+		/* padding-bottom: 50%; */
 		background-color: rgb(169, 101, 113);
 		z-index: -1;
 	}
@@ -318,24 +326,15 @@
 		font-size: 6rem;
 	}
 	.countdown {
-		height: 14rem;
-		width: 50rem;
+		font-size: 2rem;
+		height: 7rem;
+		width: 35rem;
 	}
 	.days,
 	.hours,
 	.minutes,
 	.seconds {
-		font-size: 3rem;
-		padding: 2rem;
-	}
-	.hours,
-	.minutes,
-	.seconds {
-		margin-right: 2rem;
-		margin-left: 2rem;
-	}
-	.countdown-text {
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 }
 /* 790px->49.375em */
@@ -349,24 +348,27 @@
 
 /* 768px->48em */
 @media (max-width: 48em) {
-	.heading-two {
-		/* margin-top: 50%; */
-	}
 	.countdown {
-		height: 5rem;
+		height: 6rem;
+		padding: 1rem;
 	}
 	.days,
 	.hours,
 	.minutes,
 	.seconds {
-		font-size: 3rem;
-		padding: 2rem;
+		font-size: 2rem;
+		padding: 0;
 	}
-	.hours,
-	.minutes,
-	.seconds {
-		margin-right: 3rem;
-		margin-left: 2rem;
+	#slider {
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+	}
+	.slide-img {
+		width: 60%;
+	}
+	.slider-wrapper {
+		align-content: center;
 	}
 }
 /* 720px->45em */
@@ -414,6 +416,24 @@
 		background-position: 70% 30%;
 
 		/* height: 100vh; */
+	}
+}
+/* 606px->37.875em */
+@media (max-width: 37.875em) {
+	.bg-two {
+		padding-bottom: 0;
+	}
+	.heading-two {
+		font-size: 4rem;
+	}
+	.bride-and-groom-container {
+		margin-top: 0;
+	}
+	.slide-img {
+		width: 60%;
+	}
+	.heading-gallery {
+		font-size: 5rem;
 	}
 }
 /* 590px->36.875 */
@@ -502,6 +522,12 @@
 		height: 12rem;
 		width: 12rem;
 	}
+	.slide-img {
+		width: 60%;
+	}
+	.heading-gallery {
+		font-size: 4rem;
+	}
 }
 /* 488px->30.5em */
 @media (max-width: 30.5em) {
@@ -550,6 +576,13 @@
 @media (max-width: 29.312em) {
 	.step-img {
 		height: 18rem;
+	}
+	.slide-img {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.heading-gallery {
+		font-size: 5rem;
 	}
 }
 /* 454px->28.375 */
@@ -693,6 +726,12 @@
 	}
 	.container-rsvp:nth-child(2) {
 		grid-row: 1;
+	}
+}
+/* 370px->23.125em */
+@media (max-width: 23.125em) {
+	.heading-gallery {
+		font-size: 4rem;
 	}
 }
 

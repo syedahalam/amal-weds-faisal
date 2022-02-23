@@ -591,6 +591,9 @@ h3 {
 	opacity: 1;
 	transform: scale(1);
 }
+.subcontainer {
+	align-items: center;
+}
 .img-bhai {
 	background-image: url(./images/bhai.jpg);
 	background-position: 75% 25%;
@@ -858,7 +861,7 @@ textarea {
 }
 .grid-footer {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 }
 
 .social-links {

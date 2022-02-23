@@ -97,8 +97,9 @@ const slider = tns({
 			items: 3,
 			gutter: 20,
 		},
+
 		468: {
-			items: 1,
+			items: 2,
 		},
 	},
 });
