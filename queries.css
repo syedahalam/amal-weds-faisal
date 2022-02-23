@@ -181,16 +181,6 @@
 	}
 	/* ////////// mobile nv ends here */
 
-	.step-img-box {
-		/* transform: translateY(5rem); */
-		/* margin: 3rem; */
-	}
-	/* .step-img-box:nth-child(1) {
-		grid-row: 2;
-	} */
-	/* .step-img-box:nth-child(4) {
-		grid-row: 3;
-	} */
 	.description {
 		font-size: 2.5rem;
 	}
@@ -280,6 +270,12 @@
 	}
 	.faysal {
 		text-align: center;
+	}
+	.bride-groom {
+		/* padding-right: 0;
+		padding-left: 0;
+		padding-top: 4rem;
+		padding-bottom: 4rem; */
 	}
 	.bride-and-groom-container {
 		grid-template-columns: 1fr;
@@ -656,6 +652,10 @@
 	.amal,
 	.faysal {
 		font-size: 3rem;
+	}
+	.bride-groom {
+		padding-right: 0;
+		padding-left: 0;
 	}
 }
 /* 412->25.75em */
