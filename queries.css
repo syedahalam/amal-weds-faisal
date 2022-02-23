@@ -631,26 +631,22 @@
 	.main-heading {
 		font-size: 6rem;
 		font-weight: 900;
-		margin-top: 10rem;
+		margin-top: 6rem;
 	}
 
 	.countdown {
-		height: 12rem;
-		width: 50rem;
+		height: 7rem;
+		width: 30rem;
+		padding: 0;
+		margin: 0;
 	}
 	.days,
 	.hours,
 	.minutes,
 	.seconds {
 		font-size: 2rem;
-		padding: 2rem;
 	}
-	.hours,
-	.minutes,
-	.seconds {
-		margin-left: 1rem;
-		margin-right: 1rem;
-	}
+
 	.amal,
 	.faysal {
 		font-size: 3rem;
@@ -691,22 +687,16 @@
 		/* margin-top: 35rem; */
 	}
 	.countdown {
-		height: 10rem;
-		width: 50rem;
+		height: 7rem;
+		width: 30rem;
 	}
 	.days,
 	.hours,
 	.minutes,
 	.seconds {
 		font-size: 2rem;
-		padding: 2rem;
 	}
-	.hours,
-	.minutes,
-	.seconds {
-		margin-left: 2rem;
-		margin-right: 2rem;
-	}
+
 	.countdown-text {
 		font-size: 2rem;
 	}
