@@ -562,6 +562,9 @@
 	.step-img {
 		height: 20rem;
 	}
+	.rotate-head {
+		margin-top: 9rem;
+	}
 }
 /* 475px */
 @media (max-width: 29.68em) {
@@ -570,6 +573,16 @@
 	}
 	.step-img {
 		height: 18rem;
+	}
+	.step-description {
+		font-size: 3rem;
+		line-height: 2.5rem;
+	}
+	.amal {
+		font-size: 3rem;
+	}
+	.faysal {
+		font-size: 3rem;
 	}
 }
 /* 469px->29.312em */
@@ -622,9 +635,7 @@
 		font-weight: 900;
 		margin-top: 10rem;
 	}
-	.heading-two {
-		/* margin-top: 70rem; */
-	}
+
 	.countdown {
 		height: 12rem;
 		width: 50rem;
@@ -641,6 +652,10 @@
 	.seconds {
 		margin-left: 1rem;
 		margin-right: 1rem;
+	}
+	.amal,
+	.faysal {
+		font-size: 3rem;
 	}
 }
 /* 412->25.75em */

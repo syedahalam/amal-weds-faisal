@@ -320,16 +320,24 @@ body {
 	position: relative;
 }
 /* rotating */
-
+.rotate {
+	margin-top: 4rem;
+}
 .container-rotating {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
-	height: 100vh;
+	height: 80vh;
 }
 .rotate-head {
-	margin-top: 4rem;
+	padding-top: 18rem;
+	padding-bottom: 10rem;
+	text-align: center;
+	font-size: 6rem;
+	font-weight: bold;
+	color: maroon;
+	font-family: 'Dancing Script', sans-serif;
 }
 
 .slider {
