@@ -84,7 +84,7 @@ body {
 	/* color: #000; */
 	text-decoration: dotted;
 	font-weight: bold;
-	color: maroon !important;
+	/* color: maroon !important; */
 }
 .header .logo {
 	padding-top: 1rem;
@@ -108,10 +108,10 @@ body {
 	/* color: maroon !important; */
 }
 .main-nav-link.bandg {
-	color: maroon !important;
+	color: maroon;
 }
 .header.active .main-nav-link.bandg {
-	color: white !important;
+	color: white;
 }
 
 .main-nav-link:link,
