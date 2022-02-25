@@ -98,6 +98,9 @@ body {
 	color: black;
 	color: white;
 }
+.header.active .icon-mobile-nav {
+	color: white !important;
+}
 .main-nav ul li {
 	/* color: maroon !important; */
 }
@@ -162,15 +165,17 @@ body {
 	/* by default display non until reach to particular rems*/
 	display: none;
 }
-.header.active .icon-mobile-nav {
-	color: white;
-}
+
 .icon-mobile-nav {
 	height: 4.7rem;
 	width: 4.8rem;
 	color: #333;
-	color: maroon;
-	/* color: white; */
+	/* color: maroon; */
+	/* color: white !important; */
+	color: maroon !important;
+}
+.header.active .icon-mobile-nav {
+	color: white;
 }
 .icon-mobile-nav[name='close-outline'] {
 	display: none;
