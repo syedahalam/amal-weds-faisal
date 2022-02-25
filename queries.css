@@ -411,6 +411,7 @@
 	}
 	.container-events {
 		grid-template-columns: 1fr;
+		justify-content: center;
 	}
 	.container-rsvp {
 		grid-template-columns: 1fr;
