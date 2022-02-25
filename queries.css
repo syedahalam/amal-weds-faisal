@@ -739,9 +739,9 @@
 		transform-style: preserve-3d;
 		animation: rotate 30s linear infinite;
 	}
-	.container-events {
+	/* .container-events {
 		grid-template-columns: 1fr;
-	}
+	} */
 	.container-rsvp {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr;
