@@ -409,6 +409,9 @@
 	.bg-two {
 		font-size: 5rem;
 	}
+	.container-events {
+		grid-template-columns: 1fr;
+	}
 	.container-rsvp {
 		grid-template-columns: 1fr;
 	}
@@ -752,6 +755,9 @@
 @media (max-width: 23.125em) {
 	.heading-gallery {
 		font-size: 4rem;
+	}
+	.container-events {
+		margin: 0;
 	}
 }
 
