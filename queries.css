@@ -778,6 +778,9 @@
 	.btn {
 		height: 5rem;
 	}
+	.label {
+		width: 50%;
+	}
 	.container-rsvp {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr;
