@@ -709,6 +709,10 @@
 	.parallaxgroomsfam {
 		display: none;
 	}
+	.card {
+		width: 80%;
+		height: 35rem;
+	}
 	.head2 {
 		margin-top: 40rem;
 	}
