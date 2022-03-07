@@ -710,8 +710,11 @@
 		display: none;
 	}
 	.card {
-		width: 150%;
+		width: 100%;
 		height: 35rem;
+	}
+	.container-events {
+		justify-content: center;
 	}
 	.head2 {
 		margin-top: 40rem;
