@@ -551,6 +551,9 @@ address {
 	font-size: 1rem;
 	padding-bottom: 1rem;
 }
+address.address-add {
+	padding: 0;
+}
 .seperate {
 	/* height: 35%; */
 	text-align: center;
