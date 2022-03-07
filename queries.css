@@ -775,9 +775,9 @@
 		transform-style: preserve-3d;
 		animation: rotate 30s linear infinite;
 	}
-	/* .container-events {
-		grid-template-columns: 1fr;
-	} */
+	.btn {
+		height: 5rem;
+	}
 	.container-rsvp {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr;
