@@ -463,6 +463,20 @@ body {
 
 	position: relative;
 }
+.parallaxgroomsfam {
+	background: url(./images/faysalfam.jpg);
+	min-height: 100%;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 45% 55%;
+
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+
+	position: relative;
+}
 /* ///////////////events section ////////// */
 .events {
 	/* height: 120vh; */
@@ -681,6 +695,10 @@ h3 {
 .img-bhaabi {
 	background-image: url(./images/groom-mom.jpg);
 	background-position: 65% 35%;
+}
+.img-faysal-sis {
+	background-image: url(./images/sisfaysal.png);
+	background-position: 85% 15%;
 }
 @media (max-width: 1600px) {
 	.container-gallery {

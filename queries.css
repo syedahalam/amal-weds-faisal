@@ -65,7 +65,7 @@
 	.hours,
 	.minutes,
 	.seconds {
-		padding: 0;
+		/* padding-bottom: 1rem; */
 		font-size: 2rem;
 	}
 }
@@ -81,11 +81,11 @@
 		font-size: 2rem;
 		padding: 3rem;
 		padding-top: 0;
-		padding-bottom: 0.5rem;
+		padding-bottom: 0.2rem;
 		/* margin: -1rem; */
 	}
 	.countdown {
-		padding: 2rem;
+		padding: 1rem;
 	}
 	.container-events {
 		grid-template-columns: 1fr 1fr;
