@@ -551,8 +551,8 @@ address {
 	font-size: 1rem;
 	padding-bottom: 1rem;
 }
-address.address-add {
-	padding: 0;
+.add-tel {
+	padding-bottom: 1rem;
 }
 .seperate {
 	/* height: 35%; */
