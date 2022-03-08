@@ -566,31 +566,34 @@ address {
 	background-color: yellow;
 	width: 100%;
 	padding: 3rem;
-	/* padding-top: 4rem; */
+	padding-top: 1rem;
 	text-align: center;
 }
 .mehndi {
 	background-color: rgb(62, 73, 4);
 	width: 100%;
 	text-align: center;
-	padding-bottom: 1rem;
+	padding: 3rem;
+	padding-top: 1rem;
 }
 .wedding {
 	background-color: rgba(176, 11, 11, 0.852);
 	width: 100%;
-	padding: 2.5rem;
+	padding: 3rem;
+	padding-top: 1rem;
 	text-align: center;
 }
 .reception {
 	background-color: rgb(205, 225, 233);
 	width: 100%;
 	text-align: center;
-	padding-bottom: 1rem;
+	padding: 3rem;
+	padding-top: 1rem;
 }
 .card-img {
 	margin-top: -25px;
 	width: 100%;
-	height: 40%;
+	height: 35%;
 }
 .tel {
 	margin-bottom: 2rem;
