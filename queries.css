@@ -778,10 +778,10 @@
 	.slider {
 		width: 100px;
 		height: 100px;
-		animation: rotate 0s linear infinite;
+		animation: rotate 40s linear infinite;
 	}
 	.slider span {
-		transform: rotateY(calc(var(--i) * 14deg)) translateZ(650px);
+		transform: rotateY(calc(var(--i) * 14deg)) translateZ(750px);
 	}
 	.slider span img {
 		width: 50%;
