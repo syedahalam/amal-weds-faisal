@@ -784,8 +784,8 @@
 		transform: rotateY(calc(var(--i) * 11deg)) translateZ(550px);
 	}
 	.slider span img {
-		width: 70%;
-		height: 70%;
+		width: 80%;
+		height: 80%;
 	}
 
 	.container-rsvp {
