@@ -781,7 +781,7 @@
 		animation: rotate 30s linear infinite;
 	}
 	.slider span {
-		transform: rotateY(calc(var(--i) * 17deg)) translateZ(350px);
+		transform: rotateY(calc(var(--i) * 8deg)) translateZ(350px);
 	}
 
 	.container-rsvp {
