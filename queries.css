@@ -783,6 +783,10 @@
 	.slider span {
 		transform: rotateY(calc(var(--i) * 17deg)) translateZ(550px);
 	}
+	.slider span img {
+		width: 50%;
+		height: 50%;
+	}
 
 	.container-rsvp {
 		grid-template-columns: 1fr;
