@@ -778,14 +778,14 @@
 	.slider {
 		width: 100px;
 		height: 100px;
-		animation: rotate 80s linear infinite;
+		animation: rotate 60s linear infinite;
 	}
 	.slider span {
-		transform: rotateY(calc(var(--i) * 11deg)) translateZ(750px);
+		transform: rotateY(calc(var(--i) * 11deg)) translateZ(650px);
 	}
 	.slider span img {
-		width: 50%;
-		height: 50%;
+		width: 60%;
+		height: 60%;
 	}
 
 	.container-rsvp {
