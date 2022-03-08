@@ -778,7 +778,7 @@
 	.slider {
 		width: 100px;
 		height: 100px;
-		animation: rotate 40s linear infinite;
+		animation: rotate 60s linear infinite;
 	}
 	.slider span {
 		transform: rotateY(calc(var(--i) * 14deg)) translateZ(750px);
