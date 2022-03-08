@@ -401,10 +401,10 @@ body {
 	width: 100px;
 	height: 100px;
 	transform-style: preserve-3d;
-	animation: rotate 40s linear infinite;
+	animation: rotate 60s linear infinite;
 }
 .slider:hover {
-	/* animation-play-state: paused; */
+	animation-play-state: paused;
 }
 @keyframes rotate {
 	0% {
@@ -467,12 +467,12 @@ body {
 	position: relative;
 }
 .parallaxgroomsfam {
-	background: url(./images/faysalfam.jpg);
+	background: url(./images/gfam.png);
 	min-height: 100%;
 
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 45% 55%;
+	/* background-position: 102% -2%; */
 
 	background-attachment: fixed;
 	width: 100%;
@@ -720,7 +720,7 @@ h3 {
 	grid-template-columns: 1fr 2fr;
 }
 .bg {
-	background-image: url(./images/will.jpg);
+	background-image: url(./images/closeuprings.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 70% 30%;
