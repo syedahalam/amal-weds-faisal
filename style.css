@@ -404,7 +404,7 @@ body {
 	animation: rotate 40s linear infinite;
 }
 .slider:hover {
-	animation-play-state: paused;
+	/* animation-play-state: paused; */
 }
 @keyframes rotate {
 	0% {
