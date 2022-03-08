@@ -767,8 +767,8 @@
 	}
 	.slider {
 		position: relative;
-		width: 180px;
-		height: 180px;
+		width: 2000px;
+		height: 200px;
 		transform-style: preserve-3d;
 		animation: rotate 30s linear infinite;
 	}
