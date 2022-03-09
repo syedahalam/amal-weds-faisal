@@ -1,4 +1,5 @@
 /* 1344 px and less */
+
 @media (max-width: 84em) {
 	.header-background {
 		/* min-height: 100%;
@@ -551,7 +552,7 @@
 	}
 }
 @media (max-width: 32.5em) {
-	.parallax2,
+	/* .parallax2,
 	.parallaxdiay,
 	.parallax3,
 	.parallax-gallery,
@@ -559,6 +560,20 @@
 	.parallaxgroomsfam {
 		background: fixed;
 		background-size: contain;
+	} */
+	.parallax2:after {
+		content: '';
+		position: fixed;
+		top: 0;
+		height: 100vh;
+		left: 0;
+		right: 0;
+		z-index: -1;
+		background: url(./images/smilingboth.jpeg) center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 }
 /* 514px->32.125em */
