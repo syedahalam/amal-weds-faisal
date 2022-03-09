@@ -549,17 +549,6 @@
 	.description {
 		font-size: 2rem;
 	}
-	@media (max-width: 32.5em) {
-		.parallax2,
-		.parallaxdiay,
-		.parallax3,
-		.parallax-gallery,
-		.parallax4,
-		.parallaxgroomsfam {
-			background-attachment: fixed;
-			background-size: contain;
-		}
-	}
 }
 @media (max-width: 32.5em) {
 	.parallax2,
