@@ -561,7 +561,7 @@
 		background: fixed;
 		background-size: contain;
 	} */
-	.parallax2:after {
+	/* .parallax2:after {
 		content: '';
 		position: fixed;
 		top: 0;
@@ -574,7 +574,7 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-	}
+	} */
 }
 /* 514px->32.125em */
 @media (max-width: 32.125em) {
@@ -594,6 +594,12 @@
 	.step-img {
 		height: 12rem;
 		width: 12rem;
+	}
+}
+@media screen and (min-device-width: 400px) and(max-device-width:1024px) {
+	.parallax2 {
+		background-attachment: unset !important;
+		background-position: center top !important;
 	}
 }
 
