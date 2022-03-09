@@ -725,14 +725,14 @@
 
 /* 390px */
 @media (max-width: 24.375em) {
-	.parallax2,
+	/* .parallax2,
 	.parallaxdiay,
 	.parallax3,
 	.parallax-gallery,
 	.parallax4,
 	.parallaxgroomsfam {
 		display: none;
-	}
+	} */
 	.card {
 		width: 25rem;
 		height: 35rem;
