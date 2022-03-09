@@ -455,25 +455,29 @@ body {
 }
 .parallax3 {
 	background: url(./images/Amals-fam.jpeg);
+	/* min-height: 40%; */
+
+	background-repeat: no-repeat;
+	/* background-size: cover; */
+	background-position: 65% 35%;
+
+	background-attachment: fixed;
+	/* width: 100%; */
+	/* height: 100vh; */
+
+	background-size: 100% 100%;
+
+	height: 100vh;
+
+	/* position: relative; */
+}
+.parallaxgroomsfam {
+	background: url(./images/gfam.jpg);
 	min-height: 40%;
 
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 65% 35%;
-
-	background-attachment: fixed;
-	width: 100%;
-	height: 100vh;
-
-	position: relative;
-}
-.parallaxgroomsfam {
-	background: url(./images/gfam.png);
-	min-height: 100%;
-
-	background-repeat: no-repeat;
-	background-size: cover;
-	/* background-position: 102% -2%; */
+	background-position: 55% 45%;
 
 	background-attachment: fixed;
 	width: 100%;

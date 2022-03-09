@@ -284,6 +284,12 @@
 	.main-heading {
 		font-size: 5rem;
 	}
+	.parallaxgroomsfam {
+		/* position: relative; */
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		height: 100vh;
+	}
 }
 /* 873px->54.56em */
 @media (max-width: 54.56em) {
@@ -455,14 +461,14 @@
 	.container-rsvp {
 		grid-template-columns: 1fr;
 	}
-	.bg {
+	/* .bg {
 		background-image: url(./images/standingboth.jpeg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: 70% 30%;
 
-		/* height: 100vh; */
-	}
+		/* height: 100vh; 
+	} */
 }
 /* 606px->37.875em */
 @media (max-width: 37.875em) {
@@ -562,18 +568,7 @@
 		font-size: 2rem;
 	}
 }
-@media (max-width: 32.5em) {
-	/* .parallax2,
-	.parallaxdiay,
-	.parallax3,
-	.parallax-gallery,
-	.parallax4,
-	.parallaxgroomsfam {
-		z-index: -30px;
-		/* background: fixed;
-		background-size: contain; 
-	} */
-}
+
 /* 514px->32.125em */
 @media (max-width: 32.125em) {
 	.step-img {
