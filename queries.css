@@ -552,29 +552,16 @@
 	}
 }
 @media (max-width: 32.5em) {
-	/* .parallax2,
+	.parallax2,
 	.parallaxdiay,
 	.parallax3,
 	.parallax-gallery,
 	.parallax4,
 	.parallaxgroomsfam {
-		background: fixed;
-		background-size: contain;
-	} */
-	/* .parallax2:after {
-		content: '';
-		position: fixed;
-		top: 0;
-		height: 100vh;
-		left: 0;
-		right: 0;
-		z-index: -1;
-		background: url(./images/smilingboth.jpeg) center center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	} */
+		z-index: -30px;
+		/* background: fixed;
+		background-size: contain; */
+	}
 }
 /* 514px->32.125em */
 @media (max-width: 32.125em) {
@@ -596,12 +583,6 @@
 		width: 12rem;
 	}
 }
-/* @media screen and (min-device-width: 400px) and(max-device-width:1024px) {
-	.parallax2 {
-		background-attachment: unset !important;
-		background-position: center top !important;
-	}
-} */
 
 /* Below 485px (iphone X) */
 @media (max-width: 30.56em) {
