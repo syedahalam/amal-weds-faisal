@@ -561,6 +561,17 @@
 		}
 	}
 }
+@media (max-width: 32.5em) {
+	.parallax2,
+	.parallaxdiay,
+	.parallax3,
+	.parallax-gallery,
+	.parallax4,
+	.parallaxgroomsfam {
+		background-attachment: fixed;
+		background-size: contain;
+	}
+}
 /* 514px->32.125em */
 @media (max-width: 32.125em) {
 	.step-img {
