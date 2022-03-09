@@ -557,7 +557,7 @@
 	.parallax-gallery,
 	.parallax4,
 	.parallaxgroomsfam {
-		background-attachment: fixed;
+		background: fixed;
 		background-size: contain;
 	}
 }
