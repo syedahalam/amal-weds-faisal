@@ -1,5 +1,11 @@
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
+		background-attachment: scroll;
+	}
+}
+/* ////////////////// */
 /* 1344 px and less */
-
 @media (max-width: 84em) {
 	.header-background {
 		/* min-height: 100%;
@@ -552,7 +558,7 @@
 	}
 }
 @media (max-width: 32.5em) {
-	.parallax2,
+	/* .parallax2,
 	.parallaxdiay,
 	.parallax3,
 	.parallax-gallery,
@@ -560,8 +566,8 @@
 	.parallaxgroomsfam {
 		z-index: -30px;
 		/* background: fixed;
-		background-size: contain; */
-	}
+		background-size: contain; 
+	} */
 }
 /* 514px->32.125em */
 @media (max-width: 32.125em) {
