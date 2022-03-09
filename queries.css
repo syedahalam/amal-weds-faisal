@@ -596,12 +596,12 @@
 		width: 12rem;
 	}
 }
-@media screen and (min-device-width: 400px) and(max-device-width:1024px) {
+/* @media screen and (min-device-width: 400px) and(max-device-width:1024px) {
 	.parallax2 {
 		background-attachment: unset !important;
 		background-position: center top !important;
 	}
-}
+} */
 
 /* Below 485px (iphone X) */
 @media (max-width: 30.56em) {
