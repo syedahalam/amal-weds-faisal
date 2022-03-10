@@ -141,7 +141,10 @@ const sendEmail = () => {
 };
 /////////////////////////////// end of form ////////////////////////
 
-// added this line to detect Safari to disable parallax
-// var is_safari = (navigator.userAgent.indexOf('Safari') != -1) && (navigator.userAgent.indexOf('Chrome') == -1);
-// if (navigator.userAgent.match(/(iPod|iPhone|iPad)/) || is_safari) {
-// ...
+// syedahalam@yahoo.com
+
+// F1C9AA9A0C59E6CD9B2075EEFFA936EA9C6D;
+
+// smtp.elasticemail.com;
+
+// 2525;
