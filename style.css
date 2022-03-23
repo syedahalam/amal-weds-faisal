@@ -21,7 +21,7 @@ body {
 	align-items: center;
 
 	/* background-color: rgba(169, 101, 114, 0.845); */
-	/* background-color: maroon; */
+	background-color: maroon;
 
 	/* coz we wanted to make it sticky thats why height is given */
 	height: 5rem;
@@ -32,7 +32,8 @@ body {
 	padding: 0 48px;
 	transition: all 0.3s ease-in;
 	position: fixed;
-	color: maroon;
+	color: white !important;
+	/* color: maroon; */
 	font-family: 'Dancing Script', sans-serif;
 	z-index: 10;
 }
@@ -93,7 +94,8 @@ body {
 	font-size: 3rem;
 	font-weight: 700;
 	text-decoration: none;
-	color: maroon;
+	/* color: maroon; */
+	color: white;
 }
 .header.active .logo {
 	color: black;
@@ -103,7 +105,7 @@ body {
 	color: white !important;
 }
 .main-nav ul li {
-	/* color: maroon !important; */
+	color: white !important;
 }
 .main-nav-list {
 	list-style: none;
@@ -113,7 +115,8 @@ body {
 	/* color: maroon !important; */
 }
 .main-nav-link.bandg {
-	color: maroon !important;
+	/* color: maroon !important; */
+	color: white !important;
 }
 .header.active .main-nav-link.bandg {
 	color: black !important;
@@ -331,18 +334,26 @@ body {
 	/* background-color: rgba(179, 90, 106, 0.612); */
 	background-color: maroon;
 	padding-bottom: 60%;
-	width: 50%;
+	width: 60%;
 	z-index: -1;
 }
 .step-img-box::after {
-	width: 40%;
+	width: 50%;
 	padding-bottom: 50%;
 	background-color: rgb(169, 101, 113);
 	z-index: -1;
 }
 .step-img {
-	width: 30%;
-	border-radius: 2rem;
+	width: 40%;
+	height: 90%;
+	border-radius: 50%;
+	background-position: 60% 40%;
+}
+.step-img-amal {
+	/* width: 40%; */
+	height: 70%;
+	/* border-radius: 50%;
+	background-position: 60% 40%; */
 }
 .step-description {
 	font-size: 2rem;
@@ -524,6 +535,7 @@ body {
 	border-radius: 1rem;
 	transition: all 0.4s;
 	overflow: hidden;
+	color: white;
 }
 .card:hover {
 	box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.06);
@@ -532,7 +544,8 @@ body {
 .event-name {
 	font-size: 2.4rem;
 	/* color: rgb(169, 101, 113); */
-	color: maroon;
+	/* color: maroon; */
+	color: black;
 	text-align: center;
 	font-weight: 600;
 	padding-top: 1rem;
@@ -541,11 +554,13 @@ body {
 	font-size: 2rem;
 	text-align: center;
 	padding-bottom: 0.5rem;
+	color: black;
 }
 .event-time {
 	font-size: 1.5rem;
 	text-align: center;
 	padding-bottom: 1rem;
+	color: black;
 }
 iframe {
 	width: 100%;
@@ -554,6 +569,7 @@ iframe {
 address {
 	font-size: 1rem;
 	padding-bottom: 1rem;
+	color: black;
 }
 .add-tel {
 	padding-bottom: 1rem;
@@ -564,7 +580,7 @@ address {
 	margin-bottom: 1rem;
 }
 .haldi {
-	background-color: yellow;
+	background-color: rgba(255, 255, 0, 0.647);
 	width: 100%;
 	height: 100%;
 	/* padding: 3rem; */
@@ -572,7 +588,7 @@ address {
 	text-align: center;
 }
 .mehndi {
-	background-color: rgb(62, 73, 4);
+	background-color: rgba(144, 160, 62, 0.729);
 	width: 100%;
 	height: 100%;
 	text-align: center;
@@ -580,14 +596,14 @@ address {
 	padding-top: 1rem;
 }
 .wedding {
-	background-color: rgba(176, 11, 11, 0.852);
+	background-color: rgba(128, 0, 0, 0.633);
 	width: 100%;
 	padding: 3rem;
 	padding-top: 1rem;
 	text-align: center;
 }
 .reception {
-	background-color: rgb(205, 225, 233);
+	background-color: rgba(205, 225, 233, 0.66);
 	width: 100%;
 	text-align: center;
 	padding: 3rem;
@@ -685,13 +701,10 @@ h3 {
 	align-items: center;
 }
 .img-bhai {
-	background-image: url(./images/bhai.jpg);
-	background-position: 75% 25%;
+	background-image: url(./images/znb.jpg);
+	background-position: 65% 35%;
 }
-.img-zakia {
-	background-image: url(./images/zakia.jpeg);
-	background-position: 60% 40%;
-}
+
 .img-sheema {
 	background-image: url(./images/sheema.jpg);
 	background-position: 85% 15%;
@@ -701,16 +714,26 @@ h3 {
 	background-position: 95% 5%;
 }
 .img-bhaig {
-	background-image: url(./images/groom-dad.jpeg);
+	background-image: url(./images/fparents.jpeg);
 	background-position: 85% 15%;
 }
 .img-bhaabi {
-	background-image: url(./images/groom-mom.jpg);
-	background-position: 65% 35%;
+	background-image: url(./images/khalidnruksan.jpg);
+	background-position: 70% 30%;
 }
-.img-faysal-sis {
-	background-image: url(./images/sisfaysal.png);
-	background-position: 85% 15%;
+.img-faizaman {
+	background-image: url(./images/fayezanmansour.jpg);
+	background-position: 60% 40%;
+	text-align: center;
+}
+.img-fadianmohammed {
+	background-image: url(./images/fadianmohammed.jpeg);
+	background-position: 60% 40%;
+	text-align: center;
+}
+.img-faysal-fnh {
+	background-image: url(./images/firdoushussam.jpeg);
+	background-position: 42% 58%;
 }
 @media (max-width: 1600px) {
 	.container-gallery {
@@ -726,10 +749,10 @@ h3 {
 	grid-template-columns: 1fr 2fr;
 }
 .bg {
-	background-image: url(./images/closeuprings.jpg);
+	background-image: url(./images/supercute.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 70% 30%;
+	background-position: 75% 25%;
 
 	/* height: 100vh; */
 }

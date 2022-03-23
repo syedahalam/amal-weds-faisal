@@ -14,6 +14,13 @@
 	}
 }
 /* ////////////////// */
+/* 1500px->93.75em */
+@media (max-width: 93.75em) {
+	parallaxgroomsfam {
+		background-position: 55% 45%;
+	}
+}
+
 /* 1344 px and less */
 @media (max-width: 84em) {
 	.header-background {
@@ -84,6 +91,21 @@
 		/* padding-bottom: 1rem; */
 		font-size: 2rem;
 	}
+	.step-img {
+		height: 70%;
+	}
+	.step-img-amal {
+		height: 50%;
+	}
+}
+/* 1101px->68.8125em */
+@media (max-width: 68.8125em) {
+	.step-img {
+		height: 60%;
+	}
+	.step-img-amal {
+		height: 40%;
+	}
 }
 /* below 1024px (tablets) */
 @media (max-width: 64em) {
@@ -112,6 +134,20 @@
 	}
 	.container-rsvp {
 		grid-template-columns: 1fr 1fr;
+	}
+	.step-img {
+		height: 50%;
+	}
+	.step-img-amal {
+		height: 38%;
+	}
+}
+@media (max-width: 60.5em) {
+	.step-img {
+		height: 40%;
+	}
+	.step-img-amal {
+		height: 30%;
 	}
 }
 
@@ -250,11 +286,13 @@
 
 	.step-img {
 		width: 40%;
-		height: 50%;
-		border-radius: 2rem;
+		height: 70%;
+	}
+	.step-img-amal {
+		height: 60%;
 	}
 	.fimg {
-		height: 65%;
+		/* height: 65%; */
 	}
 	#strong {
 		font-size: 4rem;
@@ -295,6 +333,12 @@
 		background-repeat: no-repeat;
 		height: 80vh;
 	}
+	.step-img {
+		height: 65%;
+	}
+	.step-img-amal {
+		height: 50%;
+	}
 }
 /* 873px->54.56em */
 @media (max-width: 54.56em) {
@@ -316,6 +360,12 @@
 		background-color: rgb(169, 101, 113);
 		z-index: -1;
 	}
+	.step-img {
+		height: 60%;
+	}
+	.step-img-amal {
+		height: 40%;
+	}
 }
 
 /* 822px->51.375em */
@@ -326,12 +376,7 @@
 	.faysal {
 		text-align: center;
 	}
-	.bride-groom {
-		/* padding-right: 0;
-		padding-left: 0;
-		padding-top: 4rem;
-		padding-bottom: 4rem; */
-	}
+
 	.bride-and-groom-container {
 		grid-template-columns: 1fr;
 		/* margin-top: 2rem; */
@@ -345,9 +390,15 @@
 		grid-row: 4;
 	}
 	.step-img {
+		height: 160%;
+	}
+	.step-img-amal {
+		height: 100%;
+	}
+	/* .step-img {
 		height: 16rem;
 		width: 16rem;
-	}
+	} */
 	.step-text-box {
 		/* margin: 9rem; */
 		margin-top: 9rem;
@@ -356,18 +407,18 @@
 	}
 	.step-img-box::before {
 		/* background-color: rgba(179, 90, 106, 0.612); */
-		background-color: maroon;
-		/* padding-bottom: 60%; */
+		/* background-color: maroon;
+		
 		width: 40%;
 		height: 10%;
-		z-index: -1;
+		z-index: -1; */
 	}
 	.step-img-box::after {
-		width: 30%;
-		height: 10%;
+		/* width: 30%; */
+		/* height: 10%; */
 		/* padding-bottom: 50%; */
-		background-color: rgb(169, 101, 113);
-		z-index: -1;
+		/* background-color: rgb(169, 101, 113);
+		z-index: -1; */
 	}
 }
 /* 820px -> 51.25em */
@@ -466,14 +517,12 @@
 	.container-rsvp {
 		grid-template-columns: 1fr;
 	}
-	/* .bg {
-		background-image: url(./images/standingboth.jpeg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: 70% 30%;
-
-		/* height: 100vh; 
-	} */
+	.step-img {
+		height: 150%;
+	}
+	.step-img-amal {
+		height: 100%;
+	}
 }
 /* 606px->37.875em */
 @media (max-width: 37.875em) {
@@ -505,7 +554,7 @@
 /*577px->36.0625  */
 @media (max-width: 36.0625em) {
 	.step-img {
-		height: 15rem;
+		height: 120;
 	}
 }
 /*561px->35.0625  */
@@ -577,8 +626,10 @@
 /* 514px->32.125em */
 @media (max-width: 32.125em) {
 	.step-img {
-		height: 12rem;
-		width: 12rem;
+		height: 170%;
+	}
+	.step-img-amal {
+		height: 110%;
 	}
 	.slide-img {
 		width: 60%;
