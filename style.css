@@ -387,6 +387,10 @@ body {
 
 	position: relative;
 }
+.parallax-heading {
+	font-family: 'Dancing Script', sans-serif;
+	text-transform: capitalize !important;
+}
 /* rotating */
 .rotate {
 	margin-top: 4rem;
@@ -418,6 +422,16 @@ body {
 .slider:hover {
 	/* animation-play-state: paused; */
 }
+.i-30 {
+	/* object-fit: scale-down; */
+	margin: 0 auto;
+}
+.i-3 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 @keyframes rotate {
 	0% {
 		transform: perspective(1000px) rotateY(0deg);
@@ -438,6 +452,7 @@ body {
 }
 .slider span img {
 	position: absolute;
+
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -445,6 +460,11 @@ body {
 	border-radius: 10px;
 	object-fit: cover;
 	transition: 2s;
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/* width: 50%; */
 }
 .slider span:hover img {
 	transform: translateY(-50px) scale(1.2);
@@ -465,7 +485,7 @@ body {
 	position: relative;
 }
 .parallax3 {
-	background: url(./images/Amals-fam.jpeg);
+	background: url(./images/fam.jpeg);
 	/* min-height: 40%; */
 
 	background-repeat: no-repeat;
@@ -727,8 +747,8 @@ h3 {
 	text-align: center;
 }
 .img-fadianmohammed {
-	background-image: url(./images/fadianmohammed.jpeg);
-	background-position: 60% 40%;
+	background-image: url(./images/fad.jpeg);
+	background-position: 70% 30%;
 	text-align: center;
 }
 .img-faysal-fnh {
