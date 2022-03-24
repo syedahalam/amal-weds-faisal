@@ -427,10 +427,7 @@ body {
 	margin: 0 auto;
 }
 .i-3 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+	/* object-position: 50%; */
 }
 @keyframes rotate {
 	0% {
